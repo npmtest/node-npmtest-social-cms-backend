@@ -1,6 +1,6 @@
 # npmtest-social-cms-backend
 
-#### test coverage for  [social-cms-backend (v0.7.2)](https://github.com/dai-shi/social-cms-backend#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-social-cms-backend.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-social-cms-backend) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-social-cms-backend.svg)](https://travis-ci.org/npmtest/node-npmtest-social-cms-backend)
+#### basic test coverage for  [social-cms-backend (v0.7.2)](https://github.com/dai-shi/social-cms-backend#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-social-cms-backend.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-social-cms-backend) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-social-cms-backend.svg)](https://travis-ci.org/npmtest/node-npmtest-social-cms-backend)
 
 #### Express middleware to provide schema-less REST APIs for creating a social networking website primarily using angular.js. It comes with built-in authentication, authorization and notification features.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-social-cms-backend/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-social-cms-backend/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-social-cms-backend/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-social-cms-backend/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-social-cms-backend/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-social-cms-backend/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-social-cms-backend/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-social-cms-backend/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-social-cms-backend/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-social-cms-backend/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-social-cms-backend/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-social-cms-backend/build/coverage.html/index.html)
 
@@ -109,7 +109,8 @@
         "mocha": "mocha -t 15000",
         "test": "npm run eslint && npm run mocha"
     },
-    "version": "0.7.2"
+    "version": "0.7.2",
+    "bin": {}
 }
 ```
 
